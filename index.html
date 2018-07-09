@@ -5,9 +5,6 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <script language="JavaScript" src="javascript.js"></script>
   <link rel="icon" href="img/Valor Real.jpg" type="image/x-icon" />
   <link rel="stylesheet" href="css/styles.css">
 </head>
@@ -28,8 +25,8 @@
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
         <li class="active"><a>Home</a></li>
-        <li><a href="#cfunciona">Como Funciona</a></li>
-        <li><a href="#preco">Preços</a></li>
+        <li><a href="#cfunciona" id="cfunciona">Como Funciona</a></li>
+        <li><a href="#preco" id="preco">Preços</a></li>
         <li><a href="https://blogdomarcossilva.wordpress.com/">Blog</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
@@ -46,7 +43,6 @@
       <li data-target="#myCarousel" data-slide-to="1"></li>
     </ol>
 
-    <!-- Wrapper for slides -->
     <div class="carousel-inner" role="listbox">
       <div class="item active">
         <img src="img/money-2724241_960_720.jpg" alt="Image">
@@ -65,7 +61,6 @@
       </div>
     </div>
 
-    <!-- Left and right controls -->
     <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
       <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
       <span class="sr-only">Previous</span>
@@ -77,7 +72,8 @@
 </div>
 
 <div class="container text-center">
-  <h3><a name="cfunciona">Como Funciona?</a></h3><br>
+ <section class="anime">
+  <h3><a id="dcfunciona"name="dcfunciona">Como Funciona?</a></h3><br>
   <div class="row">
     <div class="col-sm-4">
       <img src="img/stock-1863880_960_720.jpg" class="img-responsive" style="width:100%" alt="Image">
@@ -96,10 +92,12 @@
       </div>
     </div>
   </div>
+</section>
 </div><br>
 
 <div class="container text-center">
-  <h3><a name="preco">Preços</a></h3><br>
+  <section class="anime">
+  <h3><a id="dpreco" name="dpreco">Preços</a></h3><br>
   <div class="row">
     <div class="col-sm-4">
       <img src="img/pixiz-08-07-2018-20_29_41.jpg" class="img-responsive" style="width:100%" alt="Image">
@@ -115,13 +113,18 @@
     </div>
     </div>
   </div>
+  </section>
 </div><br>
 
 <footer class="container-fluid text-center">
-    <a href="https://www.youtube.com/channel/UCzkJJy2fSuVxCWOlfkFzibA?view_as=subscriber"><img border="0" src="img/logo_icones/Youtube-icon.png" /></a>
-    <a href="https://github.com/macmarcx"><img border="0" src="img/logo_icones/GitHub-icon.png" /></a>
-    <a href="https://www.linkedin.com/in/marcos-silva-dev/"><img border="0" src="img/logo_icones/LinkedIn-icon.png" /></a>
-    <a href="https://www.facebook.com/marcos.ribeiro.9003"><img border="0" src="img/logo_icones/Facebook-icon.png" /></a>
+    <a target="_blank" href="https://www.youtube.com/channel/UCzkJJy2fSuVxCWOlfkFzibA?view_as=subscriber"><img border="0" src="img/logo_icones/Youtube-icon.png" /></a>
+    <a target="_blank" href="https://github.com/macmarcx"><img border="0" src="img/logo_icones/GitHub-icon.png" /></a>
+    <a target="_blank"  href="https://www.linkedin.com/in/marcos-silva-dev/"><img border="0" src="img/logo_icones/LinkedIn-icon.png" /></a>
+    <a target="_blank" href="https://www.facebook.com/marcos.ribeiro.9003"><img border="0" src="img/logo_icones/Facebook-icon.png" /></a>
   </div>
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script language="JavaScript" src="javascript/javascript.js"></script>
 </body>
 </html>
